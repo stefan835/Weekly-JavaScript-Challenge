@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Francois One', sans-serif;
+}
+
+.task {
+    height: 100vh;
+    text-align: center;
+    padding: 50px 0 0 0;
+    box-sizing: border-box;
+    color: #eee;
+    background-color: #1d1f20;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+.solution {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-family: 'Francois One', sans-serif;
+}
+
+form {
+    background-color: #efefef;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type=text] {
+    height: 30px;
+    font-size: 18px;
+    background-color: #f9fafa;
+    margin: 0 0 0 20px;
+    padding: 20px;
+    border: 2px solid #d4d9dd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #40484a;
+    font-family: 'Lato', sans-serif;
+    transition: all 300ms;
+}
+
+input[type=submit] {
+    font-size: 16px;
+    padding: 7px 40px;
+    margin: 0 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #5fcf80;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    transition: all 300ms;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #4ebe70;
+}
+input[type=text]:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+}
